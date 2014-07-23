@@ -1,0 +1,44 @@
+//---------------------------//
+///***** ESTILO ALERTS *****////
+//---------------------------//
+
+$PRIORIDADE_BAIXA: 5000
+$PRIORIDADE_NORMAL:6000
+$PRIORIDADE_ALTA: 7000
+$white: #111
+
+.alert 
+  z-index: $PRIORIDADE_BAIXA
+  min-width: 500px
+  //position: absolute
+  top: 50px
+  left: 50%
+  margin-left: -230px
+  height: 50px
+  border-radius: 2px
+  margin-top: 20px
+  position: fixed
+
+
+.alert-danger
+  @extend .alert
+  z-index: $PRIORIDADE_ALTA
+  border: 1px solid red
+  box-shadow: 0 0 2px 1px red
+  p
+    color: red
+    text-align: center
+
+.glyphicon-alert-danger
+  
+  margin: -10px
+
+
+/* line 1, ../../app/styles/theme/_alerts.sass */
+.alert
+  border: none
+
+/* line 3, ../../app/styles/theme/_alerts.sass */
+.alert .alert-link
+  text-decoration: underline
+  

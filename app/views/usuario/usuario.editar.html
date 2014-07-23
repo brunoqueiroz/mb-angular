@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <form  class="form-usuario" novalidate name="formulario">
+        <div class="form-group row">
+          <label class="col-md-2" translate="usuario.NOME"></label>
+          <input class="col-md-2 col-offset-md-8" type="text" ng-model="usuario.nome">
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-2" translate="usuario.LOGIN"></label>
+          <input class="col-md-2 col-offset-md-8" type="text" ng-model="usuario.login" >
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-2" translate="usuario.EMAIL"></label>
+          <input class="col-md-2 col-offset-md-8" type="text" ng-model="usuario.email" >
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-2" translate="usuario.DATA_NASCIMENTO"></label>
+          <input class="col-md-2 col-offset-md-8" type="text" ng-model="usuario.dataNascimento" >
+        </div>
+
+      <footer class="row">
+        <button class="btn btn-sm btn-primary" type="submit" ng-click="salvar(usuario)" translate="usuario.SALVAR"></button>
+        <button type="button" class="btn btn-sm btn-secundary" ng-click="fechar()" translate="usuario.CANCELAR">  </button>
+      </footer>
+
+    </form>
+
+  <div>
+<div>

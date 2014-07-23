@@ -1,0 +1,27 @@
+{
+
+  "login": {
+    "USUARIO": "Usuário",
+    "SENHA": "Senha",
+    "BOAS_PRATICAS": "Angular - Boas Práticas",
+    "ENTRAR": "Entrar"
+  },
+  "usuario": {
+    "LISTAR_USUARIO": "Listar usuário",
+    "EDITAR_USUARIO": "Editar usuário",
+    "NOME": "Nome",
+    "DATA_NASCIMENTO": "Data Nascimento",
+    "EMAIL": "E-mail",
+    "LOGIN": "Login",
+    "SALVAR": "Salvar",
+    "CANCELAR": "Cancelar",
+    "SELECIONADO": "Selecionado",
+    "ID": "Id"
+  },
+  "exception":{
+    "default": "Ocorreu um erro ao realizar a chamada",
+    "erro.converter.objeto": "Erro ao converter o objeto",
+    "usuario.nao.logado": "Usuário não autenticado"
+  }
+
+}

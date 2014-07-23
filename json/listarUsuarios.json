@@ -1,0 +1,59 @@
+[
+{
+  "id": 1,
+  "nome": "Bruno Ferreira Queiroz",
+  "login": "bruno.queiroz",
+  "dataNascimento": "02/05/1987",
+  "email": "teste@teste.com.br",
+  "selected": true
+},
+{
+  "id": 2,
+  "nome": "Caio Ferreira",
+  "login": "caio.ferreira",
+  "dataNascimento": "02/05/1987",
+  "email": "teste@teste.com.br",
+  "selected": true
+},
+{
+  "id": 3,
+  "nome": "João da Silva",
+  "login": "joao.silva",
+  "dataNascimento": "02/05/1987",
+  "email": "teste@teste.com.br",
+  "selected": true
+},
+{
+  "id": 4,
+  "nome": "João da Silva",
+  "login": "joao.silva",
+  "dataNascimento": "02/05/1987",
+  "email": "teste@teste.com.br",
+  "selected": true
+},
+{
+  "id": 5,
+  "nome": "João da Silva",
+  "login": "joao.silva",
+  "dataNascimento": "02/05/1987",
+  "email": "teste@teste.com.br",
+  "selected": true
+},
+{
+  "id": 6,
+  "nome": "João da Silva",
+  "login": "joao.silva",
+  "dataNascimento": "02/05/1987",
+  "email": "teste@teste.com.br",
+  "selected": true
+},
+{
+  "id": 7,
+  "nome": "João da Silva",
+  "login": "joao.silva",
+  "dataNascimento": "02/05/1987",
+  "email": "teste@teste.com.br",
+  "selected": false
+}
+
+]
